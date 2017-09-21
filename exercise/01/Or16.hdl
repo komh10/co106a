@@ -13,7 +13,7 @@ CHIP Or16 {
     OUT out[16];
 
     PARTS:
-    Or(in=a[0],in=b[0],out=out[0]);
+    Or(in=a[0],in=b[0],out=out[0])
     Or(in=a[1],in=b[1],out=out[1]);
     Or(in=a[2],in=b[2],out=out[2]);
     Or(in=a[3],in=b[3],out=out[3]);
